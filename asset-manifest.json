@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/mk/static/css/main.85bb9d6e.css",
+    "main.js": "/mk/static/js/main.362e329b.js",
+    "static/media/kerala.jpg": "/mk/static/media/kerala.d57f9001a016cf081ebc.jpg",
+    "static/media/rajasthan.jpg": "/mk/static/media/rajasthan.575847633cf1c2726d25.jpg",
+    "static/media/agra.jpg": "/mk/static/media/agra.08a7efa889162db3fd12.jpg",
+    "static/media/p1.jpg": "/mk/static/media/p1.9360022583acf6466628.jpg",
+    "index.html": "/mk/index.html",
+    "main.85bb9d6e.css.map": "/mk/static/css/main.85bb9d6e.css.map",
+    "main.362e329b.js.map": "/mk/static/js/main.362e329b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85bb9d6e.css",
+    "static/js/main.362e329b.js"
+  ]
+}
