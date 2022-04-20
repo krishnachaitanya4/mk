@@ -1,0 +1,129 @@
+* {
+  width: 100%;
+}
+body{
+  margin: 0%;
+  margin-right: 0%;
+  
+}
+.App{
+  width: 100%;
+}
+.nav-bar {
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  height: 80px;
+  padding: 10px;
+  font-family: 'Ubuntu', sans-serif;
+  margin-top: 0%;
+  display: flex;
+  font-size: x-large;
+  width: 100%;
+  box-shadow: 0px 2.98px 7.23px rgba(0, 0, 0, 0.1);
+  background-color: rgb(255, 55, 55);
+  
+}
+.nav-bar > img{
+  width: 100px;
+}
+
+.card-class{
+  padding-top: 50px;
+  align-items: center;
+  display: flex;
+  margin: auto;
+  display: flex;
+  padding: 50px;
+  width: 80%;
+  height: 300px;
+  border-radius: 25px;
+  box-shadow: 0px 2.98px 7.23px rgba(0, 0, 0, 0.1);
+  
+}
+.card-class .description-class{
+  font-family: 'Noto Sans', sans-serif;
+  align-items: center;
+  padding: 10px;
+}
+.card-class .description-class .place-dis{
+  align-items: center;
+  display: flex;
+}
+.card-class .description-class .place-dis > img{
+  width: 35px;
+}
+.card-class>img{
+  border-radius: 20px;
+  width: 250px;
+  height: 250px;
+}/*=====================================*/
+.switch {
+  position: relative;
+  right: 330px;
+  display: inline-block;
+  width: 130px;
+  height: 34px;
+}
+
+
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+.darktheme{
+  display: flex;
+  padding: 5px;
+  align-items: center;
+}
+.darktheme .dark{
+  position: relative;
+  padding: 5px;
+  right: 330px;
+  align-items: center;
+  
+}
+
